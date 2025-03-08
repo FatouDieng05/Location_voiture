@@ -17,7 +17,6 @@ $voitures = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <div class="container">
         <div class="social-bar">
-            <!-- Icônes à gauche (réseaux sociaux) -->
             <div class="social-icons-left">
                 <a href="https://www.facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="Facebook" class="social-icon">
@@ -30,12 +29,12 @@ $voitures = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </a>
             </div>
         
-            <!-- Logo centré -->
+            
             <div class="logo-container">
                 <img src="images/voitures/logo.PNG" alt="Logo Boutique" class="logo">
             </div>
         
-            <!-- Icônes à droite (recherche et panier) -->
+            
             <div class="search-cart-icons">
                 <a href="javascript:void(0);" class="search-icon" id="search-icon">
                     <img src="images/search.png" alt="Search" class="icon">
